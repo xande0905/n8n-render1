@@ -2,6 +2,6 @@ FROM n8nio/n8n:latest
 
 ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
 
-EXPOSE 5678   # opcional, só para referência
-CMD ["n8n"]
+EXPOSE 5678
 
+CMD ["n8n"]
